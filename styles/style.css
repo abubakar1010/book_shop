@@ -16,6 +16,7 @@ nav{
     justify-content: center;
     position: sticky;
     top: 0;
+    padding: 15px 0;
 }
 nav ul {
 
@@ -31,6 +32,24 @@ nav ul li {
     justify-content: center;
     align-items: center;
 }
+
+#explore{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#explore img{
+    width: 110px;
+}
+
+.explore-site{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
 .search-parent{
 
     position: relative;
@@ -42,14 +61,17 @@ nav ul li {
     border: 0;
     border-radius: 34px;
     background-color: #f7f7f9;
+    outline: 0;
 }
+
+
 
 .country{
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 23px;
+    gap: 20px;
     
 }
 
@@ -94,8 +116,28 @@ nav ul li {
     gap: 12px;
     background-color: #151515;
     color: white;
-    padding: 12px 24px;
+    padding: 12px 18px;
     border-radius: 12px;
+}
+
+.delivery-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.delevery{
+    font-weight: 900;
+    padding-right: 8px;
 }
 /* nav section end here  */
 
